@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+    background-image: linear-gradient( 260deg, #2376ae 0%, #c16ecf 100%) !important;
+    align-items: center;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar a:hover {
+    cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-item {
+    color: white !important;
+    font-size: 1rem;
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {
+    color: white !important;
+    font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-item1 {
+    color: white;
+    font-size: 1rem;
+    list-style: none;
 }
+
+.nav-item:hover {
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+/* .search-input {
+    height: 40px;
+    width: 400px;
+    outline: none;
+} */
+
+.form-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-label {
+    padding-left: 1.5rem;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.form-control {
+    width: 90%;
+    margin: 1rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-form {
+    flex: 1;
+    padding: 4rem;
+    color: black;
+    background-color: white;
+}
+
+.register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.register-form {
+    flex: 1;
+    padding: 4rem;
+    color: black;
+    background-color: white;
+}
+
+.register-control {
+    width: 90%;
+    margin: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 15rem;
+    height: 30rem;
+    margin: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    object-fit: cover;
+    height: 60%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.card-body {
+    height: 40%;
+    padding: 1rem;
+}
+
+.card-body h6 {
+    text-align: center;
+}
+
+.card-over {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(2, 2, 2, 0.678);
+    transform: translateY(100%);
+    color: white;
+    overflow: auto;
+    max-height: 100%;
+    transition: transform 0.5s ease-in-out;
+    align-items: center;
+    padding: 1rem;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* .card:hover {
+    filter: grayscale(80%);
+}
+
+.card:hover .card-over {
+    transform: translateY(0%);
+} */
