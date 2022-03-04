@@ -8,13 +8,13 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyCVHOGhB_P0ebbCBghpJtP01kYT5vd5j6M",
-    authDomain: "shopping-app-3d061.firebaseapp.com",
-    projectId: "shopping-app-3d061",
-    storageBucket: "shopping-app-3d061.appspot.com",
-    messagingSenderId: "528113692604",
-    appId: "1:528113692604:web:f7bca6d7da888203dfc5b9"
-  };
+  apiKey: "AIzaSyAuVJDZTHli3s2HVoHvdacsC-J-ATnrIJ4",
+  authDomain: "react-shopping-app-2bcd1.firebaseapp.com",
+  projectId: "react-shopping-app-2bcd1",
+  storageBucket: "react-shopping-app-2bcd1.appspot.com",
+  messagingSenderId: "346930125602",
+  appId: "1:346930125602:web:fc57564dc5d47f0405e37b"
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
