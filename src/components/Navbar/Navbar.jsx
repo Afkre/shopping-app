@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <React.Fragment>
       <nav className="navbar navbar-expand-lg navbar-light d-flex align-items-center justify-content-between">
-        <a className="navbar-brand text-white">Shopping App</a>
+        <a className="navbar-brand text-white"> Shopping App</a>
 
         <div className="navbar-list d-flex">
           <li className="nav-item ">
@@ -30,9 +30,7 @@ export default function Navbar() {
             }}
             className="nav-item"
           >
-            <a className="nav-link " href="#">
-              Favorites
-            </a>
+            <a className="nav-link" href="#">Favorites</a>
           </li>
           <li
             onClick={() => {
