@@ -16,7 +16,9 @@ export default function Navbar() {
   return (
     <React.Fragment>
       <nav className="navbar navbar-expand-lg navbar-light d-flex align-items-center justify-content-between">
-        <a className="navbar-brand text-white"> Shopping App</a>
+        <a className="navbar-brand text-white">
+          Shopping App
+        </a>
 
         <div className="navbar-list d-flex">
           <li className="nav-item ">
