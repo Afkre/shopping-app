@@ -8,7 +8,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Favorites from "./pages/Favorites";
 import { AuthContextProvider } from "./context/AuthContext";
-import Search from "./components/";
+import Search from "./components/Input";
 import Cart from "./pages/Cart";
 
 function App() {
